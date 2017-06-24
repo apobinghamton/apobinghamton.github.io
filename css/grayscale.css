@@ -242,6 +242,11 @@ a:focus {
         -o-background-size: cover;
     }
 
+    .sponsor {
+    	width: 150px;
+    	height: auto;
+    }
+
 }
 
 .intro .intro-body {
@@ -283,6 +288,13 @@ a:focus {
     outline: 0;
     color: #000;
     background-color: #42dca3;
+}
+
+.sponsor {
+	width: 300px;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 footer {
