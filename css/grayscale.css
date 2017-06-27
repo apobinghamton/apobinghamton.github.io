@@ -242,11 +242,6 @@ a:focus {
         -o-background-size: cover;
     }
 
-    .sponsor {
-    	width: 150px;
-    	height: auto;
-    }
-
 }
 
 .intro .intro-body {
@@ -291,12 +286,18 @@ a:focus {
 }
 
 .sponsor {
-	width: 300px;
+	width: 150px;
 	height: auto;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
+@media(min-width:768px) {
+    .sponsor {
+        width: 300px;
+        height: auto;
+    }
+}
 footer {
     padding: 50px 0;
 }
